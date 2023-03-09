@@ -50,10 +50,8 @@ adb devices  #displaying all connected emulator/mobile devices
 sleep 15s
 adb -s emulator-5554 emu kill # trying to kill/close emulator
 
-sleep 15s
-#adb -s emulator-5556-11 emu kill # trying to kill/close emulator
 
-sleep 30s
+sleep 60s
 echo Emulator closed successfully
 
 ###closing all terminal windows Starts
