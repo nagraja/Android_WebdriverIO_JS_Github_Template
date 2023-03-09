@@ -1,5 +1,4 @@
 #!/bin/bash
-#Scripts_Location=~/Desktop/WebdriverIO_Appium_Projects/Android_JS_Project
 
 echo Test Type: $1
 TestType_Value=$1
@@ -10,11 +9,11 @@ if [[ -z $TestType_Value ]]
 #if (( $TestType_Value == "" ))
 then
     read -p 'Enter Test Type (ST or FT) Please: ' TT_Value
-    Script_Location=~/Desktop/Android_WebdriverIO_JS_GIT_Template
+    Script_Location=~/Desktop/Android_WebDriverIO_JS_Project_For_Github/Android_WebdriverIO_JS_Github_Template
 else
     echo Hello Do Not Enter
     TT_Value=${TestType_Value}
-    Script_Location=~/.jenkins/workspace/Android_WebdriverIO_JS_Template_Github_Jenkins_Integration_Job/
+    Script_Location=~/.jenkins/workspace/Android_WebDriverIO_JS_Project_From_GitHub_Job/Android_WebdriverIO_JS_Github_Template
     echo TestType Value From command line is: $TT_Value
 fi
 ####Test Type Check Ends#####
